@@ -151,8 +151,8 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -8471862539164704852, guid: 1d0540d5a5e74fc469c4ce894f37a716, type: 2}
-  - {fileID: -5886649965693238437, guid: b42fdfb4301af6441ade275a99f57c43, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -640,11 +640,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Vuforia.Engine.HoloLens
   metroPackageVersion: 10.7.2.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 80cec8928b8fd901
   metroApplicationDescription: ImageTargets, ModelTargets, and VuMarks on HoloLens
   wsaImages:
     65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png
