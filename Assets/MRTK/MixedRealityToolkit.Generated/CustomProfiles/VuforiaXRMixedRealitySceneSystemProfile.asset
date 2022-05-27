@@ -31,10 +31,10 @@ MonoBehaviour:
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 7e54e36c44f826c438c95da79f8de638, type: 3}
   contentScenes:
-  - Name: 2-ImageTargets
-    Path: Assets/SampleResources/Scenes/2-ImageTargets.unity
+  - Name: FollowUI
+    Path: Assets/Scenes/FollowUI.unity
     Included: 1
-    BuildIndex: 0
+    BuildIndex: 1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 03ddc4184641b534487cecd6dab620df, type: 3}
   permittedLightingSceneComponentTypes:
