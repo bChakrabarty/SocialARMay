@@ -5,12 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-	public void playGame()
+	public void LoadScene(string sceneName)
 	{
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		SceneManager.LoadScene(sceneName);
 	}
-	public void Back()
+
+
+	public void Update()
 	{
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+		if (Input.GetKeyDown(KeyCode.S))
+		{
+			LoadScene("FollowUI");
+		}
 	}
 }
