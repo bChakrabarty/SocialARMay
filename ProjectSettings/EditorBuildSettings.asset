@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OverheadUI.unity
     guid: 50081aae5b4f5144a967baa9746f78fe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FixedUI.unity
     guid: 4fd6e5bce260f724688fe0844e87d9b8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FollowUI.unity
     guid: 03ddc4184641b534487cecd6dab620df
   - enabled: 0
