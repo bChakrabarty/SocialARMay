@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 374874440200528522}
   - component: {fileID: 374874440200528521}
   m_Layer: 5
-  m_Name: InstaUI
+  m_Name: OldInstaUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
