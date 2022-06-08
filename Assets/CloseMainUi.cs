@@ -33,7 +33,10 @@ public class CloseMainUi : MonoBehaviour
 	{
 		if (UI == 0)
 		{
+			//transform.parent.gameObject.SetActive(false);
+
 			gameObject.SetActive(false);
+
 			// disable the combined UI
 			//Obj.SetActive(false);
 
