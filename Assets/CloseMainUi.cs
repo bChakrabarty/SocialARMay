@@ -7,7 +7,8 @@ using UnityEngine;
 public class CloseMainUi : MonoBehaviour
 {
 	private Animator target;
-	//public GameObject Obj;
+	public GameObject ResetButton;
+	public GameObject Content;
 
 	public int UI
 	{
@@ -35,8 +36,8 @@ public class CloseMainUi : MonoBehaviour
 		{
 			//transform.parent.gameObject.SetActive(false);
 
-			gameObject.SetActive(false);
-
+			Content.SetActive(false);
+			ResetButton.SetActive(true);
 			// disable the combined UI
 			//Obj.SetActive(false);
 
